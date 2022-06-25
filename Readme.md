@@ -1,4 +1,10 @@
 # Authentication with django-rest framework
+
+## INIT Commands
+- `pipenv install`
+- `python manage.py makemigrations`
+- `python manage.py migrate`
+
 ### TODOs
 - [x] Login & registration support
 - [x] Support for password reset, password change, verify user, etc.

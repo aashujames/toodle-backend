@@ -38,22 +38,23 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # Extra Apps Added/Installed
-    'rest_framework', 
-    'rest_framework.authtoken', 
-    'dj_rest_auth', 
+    'rest_framework',
+    'rest_framework.authtoken',
+    'dj_rest_auth',
 
-    'django.contrib.sites', 
-    'allauth', 
-    'allauth.account', 
-    'dj_rest_auth.registration', 
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'dj_rest_auth.registration',
 
-    'allauth.socialaccount', 
+    'allauth.socialaccount',
     'allauth.socialaccount.providers.facebook',
-    'allauth.socialaccount.providers.github', 
+    'allauth.socialaccount.providers.github',
     'corsheaders',
 
     # Local Apps
-    'accounts', 
+    'accounts',
+    "todo"
 ]
 
 SITE_ID = 1

@@ -59,7 +59,7 @@ INSTALLED_APPS = [
     "todo"
 
     # Django
-    'whitenoise.runserver_nostatic'
+    # 'whitenoise.runserver_nostatic'
 ]
 
 SITE_ID = 1
@@ -151,10 +151,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_URL = '/static/'
+# STATIC_URL = '/static/'
 # location where you will store your static files
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATICFILES_DIRS = os.path.join(BASE_DIR, 'toodle-backend/static')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+# STATICFILES_DIRS = os.path.join(BASE_DIR, 'toodle-backend/static')
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'

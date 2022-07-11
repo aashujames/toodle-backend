@@ -82,7 +82,7 @@ class TodoDetailApiView(APIView):
             )
         data = {
             'task': request.data.get('task'),
-            'completed': request.data.get('completed'),
+            'isCompleted': request.data.get('isCompleted'),
             'user': request.user.id
         }
         serializer = TodoSerializer(

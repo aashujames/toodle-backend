@@ -104,13 +104,14 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': "d11eto91td4otu",
-        'HOST': "ec2-34-200-35-222.compute-1.amazonaws.com",
+        'NAME': "postgres",
+        'HOST': "db.hfihzsnepftvqjdlhqux.supabase.co",
         "PORT": 5432,
-        "USER": "xwhlflfdamxcks",
+        "USER": "postgres",
         "PASSWORD": "9db55ba80413b0a053dd5c5f5d878ac59ce638cce0c9c37f42edcb1ee72f828b",
     }
 }
+# postgresql://postgres:[YOUR-PASSWORD]@db.hfihzsnepftvqjdlhqux.supabase.co:5432/postgres
 
 db_from_env = dj_database_url.config(conn_max_age=600)
 DATABASES['default'].update(db_from_env)
